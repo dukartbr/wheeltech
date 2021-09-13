@@ -71,4 +71,59 @@ body {
 
 .gallery-container {
   background-color: #1ba4e0;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.gallery-container h2 {
+  color: white;
+}
+
+.gallery-carousel-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.carousel-control {
+  color: white;
+}
+
+.contact-form-container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.contact-form-title {
+  text-align: center;
+  font-family: "Francois One", sans-serif;
+  text-transform: uppercase;
+}
+
+.contact-form {
+  background-color: #1ba4e0;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 32px;
+  color: white;
+  margin-top: 4rem;
+}
+
+.contact-submit {
+  text-align: center;
+  background-color: #053354;
+  font-family: "Francois One", sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: white;
+}
+
+.footer {
+  background-color: #053354;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
 }
