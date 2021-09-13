@@ -1,0 +1,74 @@
+/* Global Overrides */
+
+body {
+  background-color: #d3dde6;
+}
+
+.navbar {
+  background-color: #053354;
+  font-family: "Francois One", sans-serif;
+  text-transform: uppercase;
+}
+
+.navbar a {
+  color: white;
+}
+
+.nav-logo {
+  width: 80px;
+}
+
+.hero-image-container {
+  background-image: url("./images//heroimage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 650px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.hero-image {
+  width: 600px;
+}
+
+.services-container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.services-title {
+  color: black;
+  font-family: "Francois One", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.services-content {
+  margin-top: 1.5rem;
+  font-size: 22px;
+}
+
+.services-list {
+  list-style-type: circle;
+}
+
+.services-list li {
+  font-weight: bold;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.services-cta {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.services-image {
+  width: 100%;
+}
+
+.gallery-container {
+  background-color: #1ba4e0;
+}
