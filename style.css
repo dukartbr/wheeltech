@@ -103,22 +103,31 @@ body {
   background-color: #1ba4e0;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   border-radius: 32px;
   color: white;
   margin-top: 4rem;
 }
 
-.contact-submit {
+.contact-form-button-container {
+  margin-top: 3rem;
+}
+
+.contact-form a {
   text-align: center;
   background-color: #053354;
   font-family: "Francois One", sans-serif;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   color: white;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 32px;
 }
 
 .footer {
@@ -126,4 +135,10 @@ body {
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: white;
+}
+
+.footer a {
+  color: white;
+  font-weight: bold;
+  font-family: "Francois One", sans-serif;
 }
