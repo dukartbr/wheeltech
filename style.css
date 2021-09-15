@@ -114,7 +114,7 @@ body {
   margin-top: 3rem;
 }
 
-.contact-form a {
+.contact-link {
   text-align: center;
   background-color: #053354;
   font-family: "Francois One", sans-serif;
@@ -137,7 +137,7 @@ body {
   color: white;
 }
 
-.footer a {
+.footer-link {
   color: white;
   font-weight: bold;
   font-family: "Francois One", sans-serif;
