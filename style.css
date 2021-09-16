@@ -20,11 +20,13 @@ body {
 
 .hero-image-container {
   background-image: url("./images//heroimage.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   min-height: 650px;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-image {
