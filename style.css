@@ -1,5 +1,3 @@
-/* Global Overrides */
-
 body {
   background-color: #d3dde6;
 }
@@ -9,12 +7,10 @@ body {
   font-family: "Francois One", sans-serif;
   text-transform: uppercase;
 }
-
 .navbar a {
   color: white;
 }
-
-.nav-logo {
+.navbar .nav-logo {
   width: 80px;
 }
 
@@ -28,8 +24,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.hero-image {
+.hero-image-container .hero-image {
   width: 600px;
 }
 
@@ -37,37 +32,31 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-
-.services-title {
+.services-container .services-title {
   color: black;
   font-family: "Francois One", sans-serif;
   text-transform: uppercase;
   text-align: center;
   font-size: 2.5rem;
 }
-
-.services-content {
+.services-container .services-content {
   margin-top: 1.5rem;
   font-size: 22px;
 }
-
-.services-list {
+.services-container .services-list {
   list-style-type: circle;
 }
-
-.services-list li {
+.services-container .services-list li {
   font-weight: bold;
   color: black;
   font-size: 1.5rem;
 }
-
-.services-cta {
+.services-container .services-cta {
   text-transform: uppercase;
   font-size: 2rem;
   font-weight: bold;
 }
-
-.services-image {
+.services-container .services-image {
   width: 100%;
 }
 
@@ -75,34 +64,31 @@ body {
   background-color: #1ba4e0;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  text-align: center;
 }
-
 .gallery-container h2 {
   color: white;
+  font-family: "Francois One", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
 }
-
-.gallery-carousel-container {
+.gallery-container .gallery-carousel-container {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.carousel-control {
-  color: white;
 }
 
 .contact-form-container {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-
-.contact-form-title {
+.contact-form-container .contact-form-title {
   text-align: center;
   font-family: "Francois One", sans-serif;
   text-transform: uppercase;
   margin-bottom: 4rem;
 }
-
-.contact-form {
+.contact-form-container .contact-form {
   background-color: #1ba4e0;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -112,14 +98,12 @@ body {
   color: white;
   margin-top: 4rem;
 }
-
-.contact-form h3 {
+.contact-form-container .contact-form h3 {
   margin-bottom: 1rem;
   font-weight: bold;
   text-align: center;
 }
-
-.contact-link {
+.contact-form-container .contact-form .contact-link {
   text-align: center;
   background-color: #053354;
   font-family: "Francois One", sans-serif;
@@ -132,8 +116,7 @@ body {
   margin-bottom: 2rem;
   border-radius: 32px;
 }
-
-.contact-button {
+.contact-form-container .contact-form .contact-button {
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -145,9 +128,10 @@ body {
   padding-bottom: 1rem;
   color: white;
 }
-
-.footer-link {
+.footer .footer-link {
   color: white;
   font-weight: bold;
   font-family: "Francois One", sans-serif;
 }
+
+/*# sourceMappingURL=style.css.map */

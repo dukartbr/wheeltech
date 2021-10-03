@@ -1,0 +1,147 @@
+$white: white;
+$black: black;
+$gray: #d3dde6;
+$darkBlue: #053354;
+$lightBlue: #1ba4e0;
+
+$title: "Francois One", sans-serif;
+
+body {
+  background-color: $gray;
+}
+
+.navbar {
+  background-color: $darkBlue;
+  font-family: $title;
+  text-transform: uppercase;
+  a {
+    color: $white;
+  }
+  .nav-logo {
+    width: 80px;
+  }
+}
+
+.hero-image-container {
+  background-image: url("./images//heroimage2.jpg");
+  min-height: 650px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .hero-image {
+    width: 600px;
+  }
+}
+
+.services-container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  .services-title {
+    color: $black;
+    font-family: $title;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .services-content {
+    margin-top: 1.5rem;
+    font-size: 22px;
+  }
+  .services-list {
+    list-style-type: circle;
+    li {
+      font-weight: bold;
+      color: black;
+      font-size: 1.5rem;
+    }
+  }
+
+  .services-cta {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .services-image {
+    width: 100%;
+  }
+}
+
+.gallery-container {
+  background-color: $lightBlue;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  h2 {
+    color: $white;
+    font-family: $title;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .gallery-carousel-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.contact-form-container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  .contact-form-title {
+    text-align: center;
+    font-family: $title;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+  }
+  .contact-form {
+    background-color: $lightBlue;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border-radius: 32px;
+    color: $white;
+    margin-top: 4rem;
+    h3 {
+      margin-bottom: 1rem;
+      font-weight: bold;
+      text-align: center;
+    }
+    .contact-link {
+      text-align: center;
+      background-color: #053354;
+      font-family: "Francois One", sans-serif;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      color: white;
+      margin-top: 5rem;
+      margin-bottom: 2rem;
+      border-radius: 32px;
+    }
+    .contact-button {
+      text-align: center;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+  }
+}
+
+.footer {
+  background-color: $darkBlue;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: $white;
+  .footer-link {
+    color: $white;
+    font-weight: bold;
+    font-family: $title;
+  }
+}
