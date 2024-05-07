@@ -1,18 +1,14 @@
 body {
-  background-color: #d3dde6;
-}
+  background-color: #d3dde6; }
 
 .navbar {
   background-color: #053354;
   font-family: "Francois One", sans-serif;
-  text-transform: uppercase;
-}
-.navbar a {
-  color: white;
-}
-.navbar .nav-logo {
-  width: 80px;
-}
+  text-transform: uppercase; }
+  .navbar a {
+    color: white; }
+  .navbar .nav-logo {
+    width: 80px; }
 
 .hero-image-container {
   background-image: url("./images//heroimage2.jpg");
@@ -22,116 +18,110 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-}
-.hero-image-container .hero-image {
-  width: 600px;
-}
+  background-size: cover; }
+  .hero-image-container .hero-image {
+    width: 600px; }
 
 .services-container {
   padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-.services-container .services-title {
-  color: black;
-  font-family: "Francois One", sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 2.5rem;
-}
-.services-container .services-content {
-  margin-top: 1.5rem;
-  font-size: 22px;
-}
-.services-container .services-list {
-  list-style-type: circle;
-}
-.services-container .services-list li {
-  font-weight: bold;
-  color: black;
-  font-size: 1.5rem;
-}
-.services-container .services-cta {
-  text-transform: uppercase;
-  font-size: 2rem;
-  font-weight: bold;
-}
-.services-container .services-image {
-  width: 100%;
-}
+  padding-bottom: 3rem; }
+  .services-container .services-title {
+    color: black;
+    font-family: "Francois One", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem; }
+  .services-container .services-content {
+    margin-top: 1.5rem;
+    font-size: 22px; }
+  .services-container .services-list {
+    list-style-type: circle; }
+    .services-container .services-list li {
+      font-weight: bold;
+      color: black;
+      font-size: 1.5rem; }
+  .services-container .services-cta {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold; }
+  .services-container .services-image {
+    width: 100%; }
 
 .gallery-container {
   background-color: #1ba4e0;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  text-align: center;
-}
-.gallery-container h2 {
+  text-align: center; }
+  .gallery-container h2 {
+    color: white;
+    font-family: "Francois One", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem; }
+  .gallery-container .gallery-carousel-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+
+.disclaimer-container {
+  background-color: #053354;
+  width: 100%;
   color: white;
-  font-family: "Francois One", sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 2.5rem;
-}
-.gallery-container .gallery-carousel-container {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
+  padding-left: 5rem;
+  padding-right: 5rem; }
+  .disclaimer-container h3 {
+    text-align: center;
+    margin-bottom: 2rem; }
+  .disclaimer-container h4 {
+    text-decoration: underline; }
 
 .contact-form-container {
   padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-.contact-form-container .contact-form-title {
-  text-align: center;
-  font-family: "Francois One", sans-serif;
-  text-transform: uppercase;
-  margin-bottom: 4rem;
-}
-.contact-form-container .contact-form {
-  background-color: #1ba4e0;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  border-radius: 32px;
-  color: white;
-  margin-top: 4rem;
-}
-.contact-form-container .contact-form h3 {
-  margin-bottom: 1rem;
-  font-weight: bold;
-  text-align: center;
-}
-.contact-form-container .contact-form .contact-link {
-  text-align: center;
-  background-color: #053354;
-  font-family: "Francois One", sans-serif;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  color: white;
-  margin-top: 5rem;
-  margin-bottom: 2rem;
-  border-radius: 32px;
-}
-.contact-form-container .contact-form .contact-button {
-  text-align: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
+  padding-bottom: 3rem; }
+  .contact-form-container .contact-form-title {
+    text-align: center;
+    font-family: "Francois One", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 4rem; }
+  .contact-form-container .contact-form {
+    background-color: #1ba4e0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border-radius: 32px;
+    color: white;
+    margin-top: 4rem; }
+    .contact-form-container .contact-form h3 {
+      margin-bottom: 1rem;
+      font-weight: bold;
+      text-align: center; }
+    .contact-form-container .contact-form .contact-link {
+      text-align: center;
+      background-color: #053354;
+      font-family: "Francois One", sans-serif;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      color: white;
+      margin-top: 5rem;
+      margin-bottom: 2rem;
+      border-radius: 32px; }
+    .contact-form-container .contact-form .contact-button {
+      text-align: center;
+      padding-top: 3rem;
+      padding-bottom: 3rem; }
 
 .footer {
   background-color: #053354;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  color: white;
-}
-.footer .footer-link {
-  color: white;
-  font-weight: bold;
-  font-family: "Francois One", sans-serif;
-}
+  color: white; }
+  .footer .footer-link {
+    color: white;
+    font-weight: bold;
+    font-family: "Francois One", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */

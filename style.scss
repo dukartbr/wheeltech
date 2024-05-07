@@ -90,6 +90,23 @@ body {
   }
 }
 
+.disclaimer-container {
+  background-color: #053354;
+  width: 100%;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  h4 {
+    text-decoration: underline;
+  }
+}
+
 .contact-form-container {
   padding-top: 3rem;
   padding-bottom: 3rem;
